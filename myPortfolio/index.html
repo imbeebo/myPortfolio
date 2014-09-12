@@ -2,20 +2,64 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Gabriel Hounsome" />
-    <link href="Styles/styles.css" rel="stylesheet" />
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="Styles/foundation.css" />
+    <script src="Scripts/vendor/modernizr.js"></script>
     <title>My Portfolio</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-        </ul>
-    </nav>
+    <div id="toggleBtn" class="tab-bar" style="width:44px;position:absolute;z-index:1;">
+        <section class="left-small">
+            <a id="open_menu" class="left-off-canvas-toggle menu-icon"><span></span></a>
+        </section>
+    </div>
+    
+
+    <div class="off-canvas-wrap" data-offcanvas>
+        <div class="inner-wrap">
+
+            <aside class="left-off-canvas-menu" >
+                <ul class="off-canvas-list">
+                    <li><label>Main Menu</label></li>
+                    <li><a href="#">Home</a></li>
+                    <li class="has-submenu">
+                        <a href="#">Projects</a>
+                        <ul class="left-submenu">
+                            <li><a href="#">Project 1</a></li>
+                            <li><a href="#">Project 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </aside>
+
+            <section class="main-section" style="overflow-y:scroll auto;margin:75px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper, nulla sit amet dictum vulputate, purus mi faucibus mi, in hendrerit est lorem ac nunc. Etiam sed commodo erat. Phasellus eget pretium turpis, vel pellentesque nisl. Sed quis scelerisque mauris. Donec facilisis tempor sagittis. Curabitur fringilla ultricies velit quis efficitur. Duis vulputate nulla et ligula bibendum pretium. Vestibulum eu nulla ac lectus fermentum interdum ut in massa. Praesent quam sem, ornare a maximus at, porta vel velit.
+
+                Nullam aliquam massa vel turpis porttitor venenatis eu quis ipsum. Maecenas iaculis, metus egestas congue hendrerit, elit urna tristique nibh, molestie volutpat sem mauris nec enim. Etiam vulputate condimentum malesuada. Mauris non facilisis justo. Donec fringilla neque vel tortor pellentesque, in tempor orci porttitor. Duis nunc justo, luctus quis rutrum non, faucibus eu erat. Proin enim est, dictum sed lacus eu, sagittis pulvinar turpis. Quisque eu ultricies massa. Vestibulum sit amet magna a felis euismod dapibus. Donec libero sapien, sodales quis ultricies nec, sodales vel eros. Aliquam pharetra mi vitae libero fermentum vestibulum.
+
+                Sed eget eros ut ipsum pellentesque consectetur. Pellentesque non diam tincidunt, porta dolor nec, placerat urna. Vivamus gravida et eros et imperdiet. Maecenas facilisis luctus interdum. Proin quis tincidunt tellus, a laoreet ipsum. Sed ligula diam, viverra et fringilla in, tristique sed est. Mauris dolor risus, cursus eget ligula eget, pellentesque mollis ex. Cras tempor nisl in arcu venenatis eleifend. Vivamus lacinia tellus eu neque ultricies, id viverra orci hendrerit. Morbi vel risus vel velit vulputate egestas. Praesent congue, sem quis faucibus porta, nulla felis finibus nisl, eget bibendum odio sapien imperdiet neque. Aliquam faucibus est vel aliquet venenatis.
+
+                Praesent urna massa, volutpat id fringilla et, vehicula sit amet libero. Sed tincidunt dapibus eleifend. Vestibulum congue purus convallis, ullamcorper elit nec, varius dui. Sed sagittis ornare turpis. Nunc a sem enim. Sed eget justo neque. Integer cursus tempus tellus accumsan ornare. Donec eget nisi eget eros tincidunt tincidunt. Pellentesque tortor nisi, sagittis a ante eu, vehicula tempor erat.
+
+                Nam pulvinar sagittis sollicitudin. Morbi non vehicula tortor. Maecenas nisi ex, elementum eget egestas auctor, ultrices vitae ipsum. Suspendisse sollicitudin risus diam, in fringilla arcu maximus et. Phasellus rutrum elit mi, nec porttitor dui finibus rutrum. Cras nulla lorem, volutpat id interdum in, rhoncus id ex. Nullam eget odio fringilla, congue ex sed, vestibulum purus. Donec venenatis, leo a iaculis imperdiet, neque nulla consectetur metus, ut egestas nibh mi nec felis. Curabitur volutpat eu enim vel elementum. Phasellus condimentum consequat neque et commodo. Donec aliquam metus at lacus fringilla consequat. Proin finibus vestibulum tristique.
+
+            </section>
+
+            <a id="close_menu" class="exit-off-canvas"></a>
+
+        </div>
+    </div>
 
     <!-- Load the JavaScript-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="Scripts/foundation.min.js"></script>
     <script src="Scripts/script.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+
 </body>
 </html>
