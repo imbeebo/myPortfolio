@@ -4,62 +4,45 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Gabriel Hounsome" />
-    <link rel="stylesheet" href="Styles/foundation.css" />
-    <script src="Scripts/vendor/modernizr.js"></script>
+    <link rel="stylesheet" type="text/css" href="Styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/icons.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/style5.css" />
+    <script src="js/modernizr.custom.js"></script>
     <title>My Portfolio</title>
 </head>
 <body>
-    <div id="toggleBtn" class="tab-bar" style="width:44px;position:absolute;z-index:1;">
-        <section class="left-small">
-            <a id="open_menu" class="left-off-canvas-toggle menu-icon"><span></span></a>
-        </section>
-    </div>
-    
+    <nav id="bt-menu" class="bt-menu">
+        <a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+            <li><a href="http://www.twitter.com/imbeebo" class="bt-icon icon-twitter">Twitter</a></li>
+            <li><a href="http://www.facebook.com/imbeebo" class="bt-icon icon-facebook">Facebook</a></li>
+            <li><a href="https://github.com/imbeebo" class="bt-icon icon-github">icon-github</a></li>
+        </ul>
+    </nav>
+    <div style="margin:100px;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor lorem sit amet convallis volutpat. Nunc pretium facilisis justo, non hendrerit neque hendrerit sed. In ipsum nibh, tempus tempus sagittis at, suscipit a mi. Morbi mollis, felis molestie feugiat finibus, massa enim faucibus tellus, in pellentesque ligula nibh euismod lacus. Pellentesque vitae eleifend leo, vitae sodales sapien. Curabitur dapibus lacus sit amet lectus vestibulum facilisis. Phasellus eget sodales purus. Donec dictum eleifend sollicitudin. Morbi urna tellus, vehicula sed magna nec, volutpat viverra velit. Pellentesque sit amet aliquam orci. Nullam gravida, lacus in bibendum consequat, mauris ipsum rutrum ligula, non dapibus lorem libero vitae massa.</p>
 
-    <div class="off-canvas-wrap" data-offcanvas>
-        <div class="inner-wrap">
+        <p>Etiam in eros vel lacus pulvinar luctus sed id tellus. Mauris nisl libero, semper non est vel, feugiat dictum justo. Phasellus venenatis rutrum lacus non euismod. Donec a purus est. Sed in tortor vitae enim semper facilisis non ac justo. Nulla efficitur neque ac dolor ullamcorper, ac euismod dui facilisis. Nam finibus ut odio vitae mattis. Phasellus sit amet ligula in arcu fermentum sodales vel eget risus. Quisque justo mi, scelerisque a felis et, auctor finibus purus. Morbi ultrices sollicitudin metus lacinia rhoncus. Nunc egestas dignissim velit, at finibus dolor laoreet in. Etiam sagittis dictum nunc, sit amet vehicula nibh gravida ac. Nunc vel nisi vel arcu sagittis pretium nec at arcu. Donec ut eros sit amet dolor egestas euismod. Cras dapibus dui ex, id imperdiet tellus volutpat ut. Vestibulum sed est nec odio blandit aliquet vitae non lorem.</p>
 
-            <aside class="left-off-canvas-menu" >
-                <ul class="off-canvas-list">
-                    <li><label>Main Menu</label></li>
-                    <li><a href="#">Home</a></li>
-                    <li class="has-submenu">
-                        <a href="#">Projects</a>
-                        <ul class="left-submenu">
-                            <li><a href="#">Project 1</a></li>
-                            <li><a href="#">Project 2</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </aside>
+        <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec dui sem, laoreet vitae ligula sed, viverra mattis urna. Cras ultricies sit amet felis sit amet vehicula. Vivamus tristique, erat eu volutpat consequat, elit libero eleifend turpis, in ullamcorper urna dolor quis massa. Maecenas a interdum nunc. Praesent consequat lorem et congue egestas. Suspendisse lobortis tellus eget mattis viverra. Phasellus luctus, ligula et aliquet finibus, risus enim iaculis metus, convallis condimentum nulla mauris vitae erat. Sed volutpat ipsum eu diam tristique porttitor. Aenean ornare nisi ut leo blandit volutpat. In quis posuere mauris. Pellentesque nisl dolor, imperdiet id nibh in, fringilla elementum dolor.</p>
 
-            <section class="main-section" style="overflow-y:scroll auto;margin:75px;">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper, nulla sit amet dictum vulputate, purus mi faucibus mi, in hendrerit est lorem ac nunc. Etiam sed commodo erat. Phasellus eget pretium turpis, vel pellentesque nisl. Sed quis scelerisque mauris. Donec facilisis tempor sagittis. Curabitur fringilla ultricies velit quis efficitur. Duis vulputate nulla et ligula bibendum pretium. Vestibulum eu nulla ac lectus fermentum interdum ut in massa. Praesent quam sem, ornare a maximus at, porta vel velit.
+        <p>Ut faucibus diam lacus, at mattis quam tincidunt lacinia. Nullam vulputate malesuada risus ac mattis. Praesent hendrerit sodales lectus nec pharetra. Donec vulputate nulla orci, bibendum vulputate elit tempus quis. Praesent sodales nisi vel nibh vulputate iaculis ac congue turpis. Duis ultricies nunc et tincidunt vulputate. Aenean vestibulum consectetur lacus quis laoreet. Vivamus sed auctor ex. Fusce ut egestas mi. Nunc velit enim, condimentum eu interdum at, tincidunt sed diam. Praesent commodo magna mauris, eget convallis sapien mollis nec. Donec congue nulla maximus justo maximus euismod. Suspendisse commodo auctor nisl, sed rhoncus lorem lobortis quis. Fusce finibus orci quis mi condimentum tristique. Sed feugiat at justo non interdum. Pellentesque augue nulla, tincidunt at gravida sed, pharetra ut ante.</p>
 
-                Nullam aliquam massa vel turpis porttitor venenatis eu quis ipsum. Maecenas iaculis, metus egestas congue hendrerit, elit urna tristique nibh, molestie volutpat sem mauris nec enim. Etiam vulputate condimentum malesuada. Mauris non facilisis justo. Donec fringilla neque vel tortor pellentesque, in tempor orci porttitor. Duis nunc justo, luctus quis rutrum non, faucibus eu erat. Proin enim est, dictum sed lacus eu, sagittis pulvinar turpis. Quisque eu ultricies massa. Vestibulum sit amet magna a felis euismod dapibus. Donec libero sapien, sodales quis ultricies nec, sodales vel eros. Aliquam pharetra mi vitae libero fermentum vestibulum.
-
-                Sed eget eros ut ipsum pellentesque consectetur. Pellentesque non diam tincidunt, porta dolor nec, placerat urna. Vivamus gravida et eros et imperdiet. Maecenas facilisis luctus interdum. Proin quis tincidunt tellus, a laoreet ipsum. Sed ligula diam, viverra et fringilla in, tristique sed est. Mauris dolor risus, cursus eget ligula eget, pellentesque mollis ex. Cras tempor nisl in arcu venenatis eleifend. Vivamus lacinia tellus eu neque ultricies, id viverra orci hendrerit. Morbi vel risus vel velit vulputate egestas. Praesent congue, sem quis faucibus porta, nulla felis finibus nisl, eget bibendum odio sapien imperdiet neque. Aliquam faucibus est vel aliquet venenatis.
-
-                Praesent urna massa, volutpat id fringilla et, vehicula sit amet libero. Sed tincidunt dapibus eleifend. Vestibulum congue purus convallis, ullamcorper elit nec, varius dui. Sed sagittis ornare turpis. Nunc a sem enim. Sed eget justo neque. Integer cursus tempus tellus accumsan ornare. Donec eget nisi eget eros tincidunt tincidunt. Pellentesque tortor nisi, sagittis a ante eu, vehicula tempor erat.
-
-                Nam pulvinar sagittis sollicitudin. Morbi non vehicula tortor. Maecenas nisi ex, elementum eget egestas auctor, ultrices vitae ipsum. Suspendisse sollicitudin risus diam, in fringilla arcu maximus et. Phasellus rutrum elit mi, nec porttitor dui finibus rutrum. Cras nulla lorem, volutpat id interdum in, rhoncus id ex. Nullam eget odio fringilla, congue ex sed, vestibulum purus. Donec venenatis, leo a iaculis imperdiet, neque nulla consectetur metus, ut egestas nibh mi nec felis. Curabitur volutpat eu enim vel elementum. Phasellus condimentum consequat neque et commodo. Donec aliquam metus at lacus fringilla consequat. Proin finibus vestibulum tristique.
-
-            </section>
-
-            <a id="close_menu" class="exit-off-canvas"></a>
-
-        </div>
+        <p>Maecenas semper tellus nulla, non condimentum justo feugiat vel. Nam porta ligula massa. Donec laoreet nunc ex, eget ultrices risus volutpat sit amet. Quisque pharetra metus id lectus commodo, vel posuere mi viverra. Etiam blandit, nibh sed interdum condimentum, magna lorem convallis nisi, ut aliquet est arcu nec dui. Fusce pulvinar, massa a sagittis rhoncus, erat mauris consectetur risus, sit amet ullamcorper ex ipsum nec odio. Maecenas pellentesque non lorem id egestas. Cras metus est, aliquam eu elementum vel, facilisis vel ligula. Quisque bibendum dictum erat, et fringilla nulla tempor viverra. Donec vel dolor dictum, dignissim ante sit amet, ultricies sapien. Quisque fringilla et enim id eleifend.</p>
     </div>
 
     <!-- Load the JavaScript-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="Scripts/foundation.min.js"></script>
-    <script src="Scripts/script.js"></script>
-    <script>
-        $(document).foundation();
-    </script>
+
+    <script src="Scripts/classie.js"></script>
+    <script src="Scripts/borderMenu.js"></script>
 
 </body>
 </html>
