@@ -4,9 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Gabriel Hounsome" />
-    <link rel="stylesheet" type="text/css" href="Styles/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="Styles/icons.css" />
-    <link rel="stylesheet" type="text/css" href="Styles/style5.css" />
+    <link rel="stylesheet" href="Styles/normalize.css" />
+    <link rel="stylesheet" href="Styles/icons.css" />
+    <link rel="stylesheet" href="Styles/style5.css" />
+    <link href="Styles/breadCrumbs.css" rel="stylesheet" />
+    <link href="Styles/styles.css" rel="stylesheet" />
     <script src="js/modernizr.custom.js"></script>
     <title>My Portfolio</title>
 </head>
@@ -14,7 +16,7 @@
     <nav id="bt-menu" class="bt-menu">
         <a href="#" class="bt-menu-trigger"><span>Menu</span></a>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li id="navCurrent"><a href="index.html">Home</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="about.html">About</a></li>
@@ -26,21 +28,25 @@
             <li><a href="https://github.com/imbeebo" class="bt-icon icon-github">icon-github</a></li>
         </ul>
     </nav>
-    <div style="margin:100px;">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor lorem sit amet convallis volutpat. Nunc pretium facilisis justo, non hendrerit neque hendrerit sed. In ipsum nibh, tempus tempus sagittis at, suscipit a mi. Morbi mollis, felis molestie feugiat finibus, massa enim faucibus tellus, in pellentesque ligula nibh euismod lacus. Pellentesque vitae eleifend leo, vitae sodales sapien. Curabitur dapibus lacus sit amet lectus vestibulum facilisis. Phasellus eget sodales purus. Donec dictum eleifend sollicitudin. Morbi urna tellus, vehicula sed magna nec, volutpat viverra velit. Pellentesque sit amet aliquam orci. Nullam gravida, lacus in bibendum consequat, mauris ipsum rutrum ligula, non dapibus lorem libero vitae massa.</p>
-
-        <p>Etiam in eros vel lacus pulvinar luctus sed id tellus. Mauris nisl libero, semper non est vel, feugiat dictum justo. Phasellus venenatis rutrum lacus non euismod. Donec a purus est. Sed in tortor vitae enim semper facilisis non ac justo. Nulla efficitur neque ac dolor ullamcorper, ac euismod dui facilisis. Nam finibus ut odio vitae mattis. Phasellus sit amet ligula in arcu fermentum sodales vel eget risus. Quisque justo mi, scelerisque a felis et, auctor finibus purus. Morbi ultrices sollicitudin metus lacinia rhoncus. Nunc egestas dignissim velit, at finibus dolor laoreet in. Etiam sagittis dictum nunc, sit amet vehicula nibh gravida ac. Nunc vel nisi vel arcu sagittis pretium nec at arcu. Donec ut eros sit amet dolor egestas euismod. Cras dapibus dui ex, id imperdiet tellus volutpat ut. Vestibulum sed est nec odio blandit aliquet vitae non lorem.</p>
-
-        <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec dui sem, laoreet vitae ligula sed, viverra mattis urna. Cras ultricies sit amet felis sit amet vehicula. Vivamus tristique, erat eu volutpat consequat, elit libero eleifend turpis, in ullamcorper urna dolor quis massa. Maecenas a interdum nunc. Praesent consequat lorem et congue egestas. Suspendisse lobortis tellus eget mattis viverra. Phasellus luctus, ligula et aliquet finibus, risus enim iaculis metus, convallis condimentum nulla mauris vitae erat. Sed volutpat ipsum eu diam tristique porttitor. Aenean ornare nisi ut leo blandit volutpat. In quis posuere mauris. Pellentesque nisl dolor, imperdiet id nibh in, fringilla elementum dolor.</p>
-
-        <p>Ut faucibus diam lacus, at mattis quam tincidunt lacinia. Nullam vulputate malesuada risus ac mattis. Praesent hendrerit sodales lectus nec pharetra. Donec vulputate nulla orci, bibendum vulputate elit tempus quis. Praesent sodales nisi vel nibh vulputate iaculis ac congue turpis. Duis ultricies nunc et tincidunt vulputate. Aenean vestibulum consectetur lacus quis laoreet. Vivamus sed auctor ex. Fusce ut egestas mi. Nunc velit enim, condimentum eu interdum at, tincidunt sed diam. Praesent commodo magna mauris, eget convallis sapien mollis nec. Donec congue nulla maximus justo maximus euismod. Suspendisse commodo auctor nisl, sed rhoncus lorem lobortis quis. Fusce finibus orci quis mi condimentum tristique. Sed feugiat at justo non interdum. Pellentesque augue nulla, tincidunt at gravida sed, pharetra ut ante.</p>
-
-        <p>Maecenas semper tellus nulla, non condimentum justo feugiat vel. Nam porta ligula massa. Donec laoreet nunc ex, eget ultrices risus volutpat sit amet. Quisque pharetra metus id lectus commodo, vel posuere mi viverra. Etiam blandit, nibh sed interdum condimentum, magna lorem convallis nisi, ut aliquet est arcu nec dui. Fusce pulvinar, massa a sagittis rhoncus, erat mauris consectetur risus, sit amet ullamcorper ex ipsum nec odio. Maecenas pellentesque non lorem id egestas. Cras metus est, aliquam eu elementum vel, facilisis vel ligula. Quisque bibendum dictum erat, et fringilla nulla tempor viverra. Donec vel dolor dictum, dignissim ante sit amet, ultricies sapien. Quisque fringilla et enim id eleifend.</p>
-    </div>
+    
+    <main class="container">
+        <ul class="breadcrumbs">
+            <li class="unavailable"><a href="#">My Portfolio</a></li>
+            <li class="current"><a href="index.html">Home</a></li>
+        </ul>
+        <h2 class="welcome">Welcome to Gabriel Hounsome's portfolio</h2>
+        <h1 class="tagline">Where you will find inspiration and innovation</h1>
+        <section class="mission">
+            <p>Because the web is how I most strongly express myself, I strive to deliver the best possible solution for the web.</p>
+            <p>I love experimenting and innovating with new and exciting techniques and standards to deliver a whole new experience that is both pleasing, fast and intuitive to the end user.</p>
+            <p>The daily challenges that arise from programming is especially appealing to me as I love to problem solve and to think through the process step-by-step. To come up with the solution at the end and then move on to the next challenge is invigorating.</p>
+        </section>
+        
+    </main>
+    <footer>&copy; 2014 Gabriel Hounsome. All Rights Reserved.</footer>
 
     <!-- Load the JavaScript-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
     <script src="Scripts/classie.js"></script>
     <script src="Scripts/borderMenu.js"></script>
 
