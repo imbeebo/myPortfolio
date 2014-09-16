@@ -57,6 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="email.php" />
+    <Content Include="resume.doc" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -68,7 +70,11 @@
     <Content Include="about.html" />
     <Content Include="contact.html" />
     <Content Include="index.html" />
+    <Content Include="projectPics\01.jpg" />
+    <Content Include="projectPics\02.jpg" />
     <Content Include="projects.html" />
+    <Content Include="Scripts\borderMenu.js" />
+    <Content Include="Scripts\classie.js" />
     <Content Include="Scripts\foundation\foundation.abide.js" />
     <Content Include="Scripts\foundation\foundation.accordion.js" />
     <Content Include="Scripts\foundation\foundation.alert.js" />
@@ -86,6 +92,11 @@
     <Content Include="Scripts\foundation\foundation.tab.js" />
     <Content Include="Scripts\foundation\foundation.tooltip.js" />
     <Content Include="Scripts\foundation\foundation.topbar.js" />
+    <Content Include="Scripts\jssor.core.js" />
+    <Content Include="Scripts\jssor.slider.js" />
+    <Content Include="Scripts\jssor.slider.mini.js" />
+    <Content Include="Scripts\jssor.utils.js" />
+    <Content Include="Scripts\modernizr.custom.js" />
     <Content Include="Scripts\script.js" />
     <Content Include="Scripts\vendor\fastclick.js" />
     <Content Include="Scripts\vendor\jquery.cookie.js" />
@@ -94,7 +105,9 @@
     <Content Include="Scripts\vendor\placeholder.js" />
     <Content Include="services.html" />
     <Content Include="Styles\breadCrumbs.css" />
+    <Content Include="Styles\icons.css" />
     <Content Include="Styles\normalize.css" />
+    <Content Include="Styles\style5.css" />
     <Content Include="Styles\styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>

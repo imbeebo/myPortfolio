@@ -10,10 +10,6 @@ body  {
 	background: #e74c3c;
 }
 
-.container {
-	padding: 80px;
-}
-
 .bt-menu {
 	position: fixed;
 	top: 0;
@@ -27,6 +23,7 @@ body  {
 	-webkit-backface-visibility: hidden;
 	-webkit-transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
 	transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
+    z-index:1000;
 }
 
 .bt-menu.bt-menu-open {

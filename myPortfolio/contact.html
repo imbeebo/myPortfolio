@@ -34,13 +34,19 @@
             <li class="unavailable"><a href="#">My Portfolio</a></li>
             <li class="current"><a href="index.html">Home</a></li>
         </ul>
-        <h2 class="welcome">Welcome to Gabriel Hounsome's portfolio</h2>
-        <h1 class="tagline">Where you will find inspiration and innovation</h1>
-        <section class="mission">
-            <p>Because the web is how I most strongly express myself, I strive to deliver the best possible solution for the web.</p>
-            <p>I love experimenting and innovating with new and exciting techniques and standards to deliver a whole new experience that is both pleasing, fast and intuitive to the end user.</p>
-            <p>The daily challenges that arise from programming is especially appealing to me as I love to problem solve and to think through the process step-by-step. To come up with the solution at the end and then move on to the next challenge is invigorating.</p>
-        </section>
+        <fieldset>
+            <legend>Contact Me</legend>
+            <form class="emailForm" method="post" action="email.php">
+                <p><label for="name">Name:</label> <input type="text" name="name" required /></p>
+                <p><label for="email">Email:</label> <input type="email" name="email" required /></p>
+                <p><label for="message">Message:</label> <textarea name="message"></textarea></p>
+                <p><input type="submit" name="submit" value="Send Email" /></p>
+            </form>
+            <div class="addressPhone">
+                <span>Telephone: <a href="tel:705-345-6294">705-345-6294</a></span><br/>
+                <span>Address: 421 Medonte 2 SDRD<br />Coldwater, ON<br/>L0K1E0</span>
+            </div>
+        </fieldset>
 
     </main>
     <footer>&copy; 2014 Gabriel Hounsome. All Rights Reserved.</footer>
