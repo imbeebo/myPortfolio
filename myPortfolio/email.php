@@ -15,7 +15,7 @@ if(empty($name))
 }
 if($ok)
 {
-    mail('200265074@georgianc.on.ca', 'Email from '.$name, $message, 'From: '.$email);
+		mail('200265074@student.georgianc.on.ca', 'Email from '.$name, $message, 'From: '.$email);
 }
 	header("Location: index.html");
 ?>
