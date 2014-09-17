@@ -14,7 +14,7 @@
 </head>
 <body>
     <nav id="bt-menu" class="bt-menu">
-        <a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+        <div class="navBlind"><a href="#" class="bt-menu-trigger"><span>Menu</span></a></div>
         <ul>
             <li id="navCurrent"><a href="index.html">Home</a></li>
             <li><a href="services.html">Services</a></li>
@@ -32,7 +32,7 @@
     <main class="container">
         <ul class="breadcrumbs">
             <li class="unavailable"><a href="#">My Portfolio</a></li>
-            <li class="current"><a href="index.html">Home</a></li>
+            <li class="current"><a href="contact.html">Contact</a></li>
         </ul>
         <fieldset>
             <legend>Contact Me</legend>
@@ -42,10 +42,19 @@
                 <p><label for="message">Message:</label> <textarea name="message"></textarea></p>
                 <p><input type="submit" name="submit" value="Send Email" /></p>
             </form>
-            <div class="addressPhone">
+            <fieldset class="addressPhone">
+                <legend>Telephone and Mailing Address</legend>
                 <span>Telephone: <a href="tel:705-345-6294">705-345-6294</a></span><br/>
                 <span>Address: 421 Medonte 2 SDRD<br />Coldwater, ON<br/>L0K1E0</span>
-            </div>
+            </fieldset>
+            <aside class="getConnected">
+                <fieldset>
+                    <legend>Get Connected</legend>
+                    <section><a href="http://ca.linkedin.com/pub/gabriel-hounsome/b/20a/693"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Gabriel Hounsome's profile on LinkedIn"></a></section>
+                    <section><a href="https://twitter.com/gabrieljd89" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @gabrieljd89</a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script></section>
+                </fieldset>
+            </aside>
         </fieldset>
 
     </main>
