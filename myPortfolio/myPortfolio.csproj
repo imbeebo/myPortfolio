@@ -60,6 +60,7 @@
     <Content Include="ecorefinishers.html" />
     <Content Include="email.php" />
     <Content Include="img\me.jpg" />
+    <Content Include="myportfolio.html" />
     <Content Include="projectPics\eco01.jpg" />
     <Content Include="projectPics\starTrek.jpg" />
     <Content Include="resume.doc" />
