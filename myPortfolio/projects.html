@@ -1,6 +1,14 @@
-﻿<!DOCTYPE html>
+﻿<!--
+    Date: September 17, 2014
+    File: projects.html
+    Author: Gabriel Hounsome
+    Website: myPortfolio
+    Description: This website is to showcase the projects and assignments that I have worked on
+-->
+<!DOCTYPE html>
 <html>
 <head>
+    <!-- set the meta data and link the stylesheets and modernizr-->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Gabriel Hounsome" />
@@ -9,46 +17,60 @@
     <link rel="stylesheet" href="Styles/style5.css" />
     <link href="Styles/breadCrumbs.css" rel="stylesheet" />
     <link href="Styles/styles.css" rel="stylesheet" />
-    <script src="js/modernizr.custom.js"></script>
-    <title>My Portfolio</title>
+    <script src="Scripts/modernizr.custom.js"></script>
+    <title>My Portfolio | Projects</title>
 </head>
 <body>
+    <!-- This is a responsive off canvas menu that is fluid and is laid overtop of the website.-->
     <nav id="bt-menu" class="bt-menu">
         <div class="navBlind"><a href="#" class="bt-menu-trigger"><span>Menu</span></a></div>
         <ul>
-            <li id="navCurrent"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="projects.html">Projects</a></li>
+            <li id="navCurrent"><a href="projects.html">Projects</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+        <!-- These are social links to my online profiles-->
         <ul>
             <li><a href="http://www.twitter.com/imbeebo" class="bt-icon icon-twitter">Twitter</a></li>
             <li><a href="http://www.facebook.com/imbeebo" class="bt-icon icon-facebook">Facebook</a></li>
             <li><a href="https://github.com/imbeebo" class="bt-icon icon-github">icon-github</a></li>
         </ul>
     </nav>
-
+    <!-- Main section of the website-->
     <main class="container">
         <ul class="breadcrumbs">
             <li class="unavailable"><a href="#">My Portfolio</a></li>
-            <li class="current"><a href="projects.html">Project</a></li>
+            <li class="current"><a href="projects.html">Projects</a></li>
         </ul>
-        <h2 class="welcome">Welcome to Gabriel Hounsome's portfolio</h2>
-        <h1 class="tagline">Where you will find inspiration and innovation</h1>
-        <section class="mission">
-            <p>Because the web is how I most strongly express myself, I strive to deliver the best possible solution for the web.</p>
-            <p>I love experimenting and innovating with new and exciting techniques and standards to deliver a whole new experience that is both pleasing, fast and intuitive to the end user.</p>
-            <p>The daily challenges that arise from programming is especially appealing to me as I love to problem solve and to think through the process step-by-step. To come up with the solution at the end and then move on to the next challenge is invigorating.</p>
+        <section>
+            <p>Here is a list of the work that I have done since starting school.</p>
+            <p>Most of the examples in my portfolio will be web related, as this is where my passion lies.</p>
+            <p>I love the ability to write code once and have it work everywhere across a broad range of devices.</p>
+            <p>Enjoy my portfolio and if you are interested in having a project done, please do not hesitate to contact me for a free estimate.</p>
         </section>
-
+        <section class="featuredWork">
+            <div id="projectSlider">
+                <!-- Slides Container -->
+                <div u="slides" class="sliderContainer">
+                    <div><a href="ecorefinishers.html"><img class="image" src="projectPics/eco01.jpg" /></a></div>
+                    <div><a href="startrek.html"><img class="image" src="projectPics/starTrek.jpg" /></a></div>
+                    <div><a href="myPortfolio.html"><img class="image" src="projectPics/myPorfolio.jpg" /></a></div>
+                </div>
+            </div>
+        </section>
     </main>
+    <!-- Website footer-->
     <footer>&copy; 2014 Gabriel Hounsome. All Rights Reserved.</footer>
 
-    <!-- Load the JavaScript-->
+    <!-- Load the JavaScript libraries-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="Scripts/classie.js"></script>
     <script src="Scripts/borderMenu.js"></script>
-
+    <script type="text/javascript" src="Scripts/jssor.core.js"></script>
+    <script type="text/javascript" src="Scripts/jssor.utils.js"></script>
+    <script type="text/javascript" src="Scripts/jssor.slider.mini.js"></script>
+    <script src="Scripts/supportScript.js"></script>
 </body>
 </html>
