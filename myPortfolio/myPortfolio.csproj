@@ -60,8 +60,10 @@
     <Content Include="ecorefinishers.html" />
     <Content Include="email.php" />
     <Content Include="img\me.jpg" />
+    <Content Include="img\simpleLogo.png" />
     <Content Include="myportfolio.html" />
     <Content Include="projectPics\eco01.jpg" />
+    <Content Include="projectPics\myPortfolio.jpg" />
     <Content Include="projectPics\starTrek.jpg" />
     <Content Include="resume.doc" />
     <None Include="Web.Debug.config">
