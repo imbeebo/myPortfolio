@@ -1,0 +1,78 @@
+﻿/* 
+    Date: September 17, 2014
+    File: styles.css
+    Author: Gabriel Hounsome
+    Website: myPortfolio
+    Description: This website is to showcase the projects and assignments that I have worked on
+*/
+body{
+    font-family: Verdana, Geneva, sans-serif;
+    min-width:580px;
+}
+.container {
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+}
+.mission {
+    padding: 0px 25px 0px 25px;
+}
+footer{
+    text-align:center;
+    margin-top:50px;
+    clear:both;
+}
+#navCurrent a{
+    color:#19B5FE;
+}
+.addressPhone{
+    margin-bottom:20px;
+}
+.emailForm{
+    float:left;
+    margin-right:20px;
+}
+.navBlind{
+    width:120%;
+    height:80px;
+    background-color:#e74c3c;
+    border-bottom:medium solid grey;
+    min-width:580px;
+}
+.navBlind img{
+    height:75px;
+    margin-left:20px;
+}
+.threeWords{
+    margin-left:100px;
+    float:left;
+    font-size:15pt;
+    margin-top:25px;
+}
+.aboutImg{
+    float:left;
+    width:200px;
+    margin-right:20px;
+}
+.featuredWork{
+    float:left;
+    margin-right:20px;
+}
+.workConnectionWrapper{
+    min-height:270px;
+}
+#projectSlider{
+    position: relative; top: 0px; left: 0px; width: 600px; height: 300px;
+}
+.sliderContainer{
+    cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 300px;
+}
+.sliderContainer img{
+    width:100%;
+}
+.myWorkImg{
+    float:right;
+    margin:20px;
+    max-width:600px;
+}
