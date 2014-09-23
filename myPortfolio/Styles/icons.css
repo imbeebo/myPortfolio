@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 @font-face {
   font-family: "minicons-webalys";
   src:url("../fonts/demoicons/minicons-webalys.eot");
@@ -34,6 +34,7 @@
   width: 1em;
   line-height: inherit;
   -webkit-font-smoothing: antialiased;
+  z-index:1010;
 }
 
 .bt-icon-alt:before {

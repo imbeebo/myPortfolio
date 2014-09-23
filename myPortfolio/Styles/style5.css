@@ -36,11 +36,8 @@ body  {
 
 .bt-overlay {
 	position: absolute;
-	width: 100%;
-}
-
-.bt-menu-open .bt-overlay {
-	height: 100%;
+    height: calc(100% - 80px);
+    width:100%;
 }
 
 .bt-menu-trigger {

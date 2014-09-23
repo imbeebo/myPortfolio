@@ -1,4 +1,12 @@
 ﻿<?php
+	/* 
+	    Date: September 17, 2014
+	    File: email.php
+	    Author: Gabriel Hounsome
+	    Website: myPortfolio
+	    Description: This website is to showcase the projects and assignments that I have worked on
+	*/
+#Create and populate variables 
 $email = $_POST['email'];
 $name = $_POST['name'];
 $message = $_POST['message'];
