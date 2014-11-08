@@ -1,6 +1,6 @@
 ﻿<!--
     Date: September 17, 2014
-    File: ecorefinishers.html
+    File: startrek.html
     Author: Gabriel Hounsome
     Website: myPortfolio
     Description: This website is to showcase the projects and assignments that I have worked on
@@ -19,19 +19,21 @@
     <link href="Styles/breadCrumbs.css" rel="stylesheet" />
     <link href="Styles/styles.css" rel="stylesheet" />
     <script src="js/modernizr.custom.js"></script>
-    <title>My Portfolio | Projects (EcoRefinishers)</title>
+    <title>My Portfolio | Projects (Crazy Comets)</title>
 </head>
 <body>
     <!-- This is a responsive off canvas menu that is fluid and is laid overtop of the website.-->
     <nav id="bt-menu" class="bt-menu">
-        <div class="navBlind"><a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+        <div class="navBlind">
+            <a href="#" class="bt-menu-trigger"><span>Menu</span></a>
             <!-- # descriptive words about me and my logo-->
             <h1 class="threeWords">Inspiration. Innovation. Intuition.</h1>
-            <img src="img/simpleLogo.png" /></div>
+            <img src="img/simpleLogo.png" />
+        </div>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="services.html">Services</a></li>
-            <li class="current"><a href="projects.html">Projects</a></li>
+            <li id="navCurrent"><a href="projects.html">Projects</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -47,26 +49,35 @@
         <ul class="breadcrumbs">
             <li class="unavailable"><a href="#">My Portfolio</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li class="current"><a href="ecorefinishers.html">EcoRefinishers</a></li>
+            <li class="current"><a href="crazycomets.html">Crazy Comets</a></li>
         </ul>
-        <h1>Ecorefinishers</h1>
+        <h1>Crazy Comets</h1>
         <section>
-            <img class="myWorkImg" src="projectPics/eco01.jpg" />
-            <p>This website was made using the skills I developed in a course I took &mdash;Introduction to Web Programming&mdash; in 2nd Semester at Georgian College.</p>
-            <p>This website presented many different challenges along the way as it was an ever growing projects and I implented things that I learnt as the project evolved.</p>
-            <p>This site has many features such as:</p>
+            <img class="myWorkImg" src="projectPics/crazyComets.jpg" />
+            <p>TThis project is created using my most recent skills of TypeScript as well as javascript. It makes use of sprites for faster loading.</p>
+            <p>This was a really fun project because I was able to visually see my creation come to life in front of me; to interact with something that I created is incredible and exciting.</p>
+            <p>This site has a few features such as:</p>
             <!-- Web page features-->
             <ul>
-                <li>Add/Edit Pages</li>
-                <li>Add/Edit Images</li>
-                <li>Modify the keywords, titles and description tags for the site</li>
-                <li>SVG background (There are only two images on the site)</li>
-                <li>Login page</li>
-                <li>Contact form (With CAPTCHA)</li>
-                <li>HTML5 compliant</li>
-                <li>Optimized for slow connections</li>
+                <li>CreateJS</li>
+                <li>jQuery</li>
+                <li>SpriteSheets</li>
             </ul>
-            <p>Feel free to check out the website at <a href="ecorefinishers.com">Ecorefinishers.com</a> to see the website for yourself</p>
+            <div style="width:815px; height:550px; margin-top:150px;">
+                <span>Play the game here:</span>
+                <iframe src="http://webdesign4.georgianc.on.ca/~200265074/crazycomets/index.html" width="815" height="500"></iframe>
+            </div>
+            <p>Feel free to check out the website at my <a href="http://webdesign4.georgianc.on.ca/~200265074/crazycomets/index.html">Crazy Comets</a> project page to see the website for yourself</p>
+        </section>
+        <section>
+            <span>Consider making a donation in support of the game. :)</span>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="WN7DAX787L8KS">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+
         </section>
     </main>
     <!-- Website footer-->

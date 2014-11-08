@@ -57,14 +57,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="crazycomets.html" />
     <Content Include="ecorefinishers.html" />
     <Content Include="email.php" />
     <Content Include="img\me.jpg" />
     <Content Include="img\simpleLogo.png" />
     <Content Include="myportfolio.html" />
+    <Content Include="projectPics\crazyComets.jpg" />
     <Content Include="projectPics\eco01.jpg" />
+    <Content Include="projectPics\crazyComets.png" />
     <Content Include="projectPics\myPortfolio.jpg" />
+    <Content Include="projectPics\slotMachine.jpg" />
+    <Content Include="projectPics\slotMachine.png" />
     <Content Include="projectPics\starTrek.jpg" />
+    <Content Include="projectPics\survey.jpg" />
     <Content Include="resume.doc" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -93,8 +99,11 @@
     <Content Include="Styles\breadCrumbs.css" />
     <Content Include="Styles\icons.css" />
     <Content Include="Styles\normalize.css" />
+    <Content Include="slotmachine.html" />
     <Content Include="Styles\style5.css" />
     <Content Include="Styles\styles.css" />
+    <Content Include="survey.html" />
+    <Content Include="thankyou.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
